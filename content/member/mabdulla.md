@@ -3,7 +3,7 @@ date = "2016-07-12T15:52:22+02:00"
 id = "mabdulla"
 interests = ["Fluid Dynamics", "Mechanical Engineering"]
 name = "Muhammad Abdullah, '22"
-#portrait = "headshots/xjiang.jpg"
+portrait = "headshots/abdullah.jpg"
 short_bio = ""
 title = "Muhammad Abdullah"
 
