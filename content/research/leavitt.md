@@ -8,7 +8,7 @@ is_member = true
 link = "/jeff_oishi" 
 +++
 # Basics
-
+In order to log in to leavitt, you will need to use `ssh` to connect to `leavitt.bates.edu`.
 When you log in to leavitt via `ssh`, you will be on the "head node". This node is identical to the other nodes. It has 28 cores and 128 GB of memory. This machine is for doing small analysis tasks and submitting jobs. **DO NOT RUN DEDALUS ON THE HEAD NODE**. Instead, use a job script to submit runs to the compute nodes.
 
 # Modules System
@@ -50,9 +50,24 @@ function png2mp4(){
         -vf "scale=trunc(in_w/2)*2:trunc(in_h/2)*2" \
         $2
 }
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/joishi/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/joishi/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/joishi/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/joishi/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
 ```
 
-to your `.bashrc` file. The `export PATH=` line you only need if you want to use software I've installed. You don't need it if we haven't talked about it. The last part gives you a little function called `png2mp4` which you can use to make movies from the `.png` frames we make with our visualization scripts. The example usage is right up there in the comments.
+to your `.bashrc` file. The `png2mp4` part gives you a little function called `png2mp4` which you can use to make movies from the `.png` frames we make with our visualization scripts. The example usage is right up there in the comments.
 
 # Sample Dedalus Run Script
 Run scripts are lists of commands to run on the nodes with some metadata stored in comments at the top of the file. These scripts are done using In order to run a job, you submit a script to a queue, by doing 
