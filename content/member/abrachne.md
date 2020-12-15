@@ -6,6 +6,7 @@ name = "Avi Brach-Neufeld, '20"
 portrait = "headshots/avi.jpg"
 short_bio = ""
 title = "Avi Brach-Neufeld"
+is_former_member = true
 
 [[social]]
     icon = "envelope"

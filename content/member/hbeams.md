@@ -6,6 +6,7 @@ name = "Hannah Beams, '21"
 portrait = "headshots/hannah.jpg"
 short_bio = ""
 title = "Hannah Beams"
+is_former_member = true
 
 [[social]]
     icon = "envelope"

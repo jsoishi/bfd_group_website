@@ -1,7 +1,7 @@
 +++
 date = "2016-07-12T15:52:22+02:00"
 id = "xjiang"
-interests = ["Fluid Dynamics", "High Performance Computing"]
+interests = ["Gravity", "Convection", "Fluid Dynamics", "High Performance Computing"]
 name = "Alex Jiang, '21"
 portrait = "headshots/xjiang.jpg"
 short_bio = ""
@@ -13,7 +13,7 @@ title = "Alex Jiang"
     link = "mailto:xjiang@bates.edu"
 
 [[education]]
-    course = "BS, Physics"
+    course = "BS, Physics; BS, Mathematics"
     institution = "Bates College"
     year = 2021
 
@@ -22,7 +22,5 @@ title = "Alex Jiang"
     role = "Student"
 
 +++ 
-Alex is just getting started in the group. He's going to work with Becca on Active Matter.
-
-### Hobbies
+Alex is working on his senior thesis on the topological properties of torsional oscillations in the Earth's core. He's also worked on Active Matter simulations.
 

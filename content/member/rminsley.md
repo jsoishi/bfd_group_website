@@ -6,6 +6,7 @@ name = "Becca Minsley, '21"
 #portrait = "headshots/morgan.jpg"
 short_bio = ""
 title = "Becca Minsley"
+is_former_member = true
 
 [[social]]
     icon = "envelope"

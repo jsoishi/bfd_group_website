@@ -6,6 +6,7 @@ name = "Anthony Okonkwo, '20"
 #portrait = "headshots/xjiang.jpg"
 short_bio = ""
 title = "Anthony Okonkwo"
+is_former_member = true
 
 [[social]]
     icon = "envelope"

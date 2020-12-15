@@ -6,6 +6,7 @@ name = "Fahim Khan, '20"
 portrait = "headshots/fkhan.jpg"
 short_bio = ""
 title = "Fahim Khan"
+is_former_member = true
 
 [[social]]
     icon = "envelope"

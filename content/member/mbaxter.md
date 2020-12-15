@@ -6,6 +6,7 @@ name = "Morgan Baxter, '20"
 portrait = "headshots/morgan.jpg"
 short_bio = ""
 title = "Morgan Baxter"
+is_former_member = true
 
 [[social]]
     icon = "envelope"
@@ -13,16 +14,20 @@ title = "Morgan Baxter"
     link = "mailto:mbaxter@bates.edu"
 
 [[education]]
+    course = "MS, Aerospace Engineering"
+    institution = "CU Boulder"
+    year = 2022
+[[education]]
     course = "BS, Physics"
     institution = "Bates College"
     year = 2020
 
 [[organizations]]
     name = "Bates College"
-    role = "Student"
+    role = "Alumnus"
 
 +++ 
-Morgan just completed an eigenvalue analysis of the 3D magnetorotational instability, and he's moving on to start his senior thesis on applying the Generalized Quasi-linear Approximation to Taylor-Couette flows.
+, and he's moving on to start his senior thesis on applying the Generalized Quasi-linear Approximation to Taylor-Couette flows. Before that, Morgan completed an [eigenvalue analysis]({{< ref "2020RSPSA.47690622O.md" >}}) of the 3D magnetorotational instability.
 
 ### Hobbies
 
