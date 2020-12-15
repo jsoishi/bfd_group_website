@@ -22,7 +22,7 @@ title = "Muhammad Abdullah"
     role = "Student"
 
 +++ 
-Abdullah has just started in the group working on stability analyses for lab experiments.
+Abdullah is working on the thermal asymptotic suction boundary layer problem.
 
-### Hobbies
+
 
