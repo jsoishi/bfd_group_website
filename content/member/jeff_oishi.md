@@ -4,9 +4,9 @@ id = "jsoishi"
 interests = ["Fluid Dynamics", "Numerical Methods for PDEs", "Statistical Approaches to Turbulence", "High Performance Computing"]
 name = "Jeffrey S. Oishi"
 portrait = "headshots/jeff_circle.jpg"
-short_bio = "Moderately fearless leader."
+short_bio = "Alleged grown-up."
 title = "Jeff Oishi"
-personal_website = "http://jsoishi.org/"
+personal_website = ""
 sort_position=1
 
 [[social]]
@@ -18,11 +18,6 @@ sort_position=1
     icon = "github"
     icon_pack = "fa"
     link = "https://github.com/jsoishi"
-
-[[social]]
-    icon = "bitbucket"
-    icon_pack = "fa"
-    link = "//bitbucket.org/jsoishi"
 
 [[education]]
     course = "PhD"

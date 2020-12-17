@@ -4,7 +4,7 @@ id = "mabdulla"
 interests = ["Fluid Dynamics", "Mechanical Engineering"]
 name = "Muhammad Abdullah, '22"
 portrait = "headshots/abdullah.jpg"
-short_bio = ""
+short_bio = "Research Student"
 title = "Muhammad Abdullah"
 
 [[social]]

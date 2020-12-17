@@ -4,7 +4,7 @@ id = "xjiang"
 interests = ["Gravity", "Convection", "Fluid Dynamics", "High Performance Computing"]
 name = "Alex Jiang, '21"
 portrait = "headshots/xjiang.jpg"
-short_bio = ""
+short_bio = "Senior Thesis Student"
 title = "Alex Jiang"
 
 [[social]]
