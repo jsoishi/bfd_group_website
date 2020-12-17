@@ -1,3 +1,4 @@
+enableGitInfo = true
 layoutdir = "themes/hugo-academic-group/layouts"
 publishdir = "public"
 static = "/static"
@@ -10,9 +11,19 @@ title = "Bates Fluid Dynamics Group"
 math = true
 copyright = "&copy; Jeffrey S. Oishi, 2018-present; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran"
 
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = [":git", "lastmod", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+
 [taxonomies]
 category = "categories"
 tag = "tags"
+
+[markup]
+  [markup.goldmark]
+     [markup.goldmark.renderer]
+       unsafe = true
 
 [params]
   description = "Bates Fluids Group"
