@@ -17,8 +17,6 @@ Leavitt uses modules to manage various software packages. A quick intro to using
 ```
 module load slurm intel-mpi hdf5 ffmpeg
 
-export PATH=$PATH:/home/joishi/build/bin
-
 # PNG encoding with ffmpeg
 # Example use: png2mp4 “frames/*" frames.mp4 30
 
