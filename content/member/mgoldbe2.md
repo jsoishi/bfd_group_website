@@ -12,6 +12,10 @@ is_former_member = true
     icon = "envelope"
     icon_pack = "fa"
     link = "mailto:mgoldbe2@bates.edu"
+[[education]]
+    course = "PhD candidate, Computational Science, Engineering, and Mathematics"
+    institution = "University of Texas, Austin"
+    year = 2026
 
 [[education]]
     course = "BS, Physics; BS, Math"
@@ -23,7 +27,5 @@ is_former_member = true
     role = "Alum"
 
 +++ 
-Matt's from Cambridge, MA. 
-
-### Hobbies
-Ultimate!
+Matt wrote his senior thesis on the formation of jets on the 2-sphere using a very primative version of what is now Dedalus 3.
+He is now a PhD student in Computational Science, Engineering, and Mathematics at UT Austin.
