@@ -27,7 +27,8 @@ is_former_member = true
     role = "Alumnus"
 
 +++ 
-, and he's moving on to start his senior thesis on applying the Generalized Quasi-linear Approximation to Taylor-Couette flows. Before that, Morgan completed an [eigenvalue analysis]({{< ref "2020RSPSA.47690622O.md" >}}) of the 3D magnetorotational instability.
+Morgan wrote his senior thesis on applying the Generalized Quasi-linear Approximation to Taylor-Couette flows. Before that, Morgan completed an [eigenvalue analysis]({{< ref "2020RSPSA.47690622O.md" >}}) of the 3D magnetorotational instability.
+As of 2021, he's pursuing a Master's Degree in Aerospace Engineering at University of Colorado, Boulder.
 
 ### Hobbies
 
