@@ -4,8 +4,9 @@ id = "tbarber"
 interests = ["Data Science", "Fluid Dynamics"]
 name = "Tucker Barber, '21"
 portrait = "headshots/tucker.jpg"
-short_bio = "Research Student"
+short_bio = "Senior Thesis Student"
 title = "Tucker Barber"
+is_former_member = true
 
 [[social]]
     icon = "envelope"
@@ -19,10 +20,10 @@ title = "Tucker Barber"
 
 [[organizations]]
     name = "Bates College"
-    role = "Student"
+    role = "Alumnus"
 
 +++ 
-Tucker is writing his senior thesis on testing the forthcoming [Dedalus-bio](project/redu) software package for biophysics simulations in collaboration with [Phil Pearce](https://scholar.harvard.edu/ppearce/home) at Harvard Medical School and the [Dedalus team](https://dedalus-project.org/about/).
+Tucker wrote his senior thesis on testing the forthcoming [Dedalus-bio](project/redu) software package for biophysics simulations.
 
 
 

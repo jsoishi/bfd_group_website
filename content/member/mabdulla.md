@@ -4,9 +4,9 @@ id = "mabdulla"
 interests = ["Fluid Dynamics", "Mechanical Engineering"]
 name = "Muhammad Abdullah, '22"
 portrait = "headshots/abdullah.jpg"
-short_bio = "Research Student"
+short_bio = "Senior Thesis Student"
 title = "Muhammad Abdullah"
-
+is_former_member = true
 [[social]]
     icon = "envelope"
     icon_pack = "fa"
@@ -19,10 +19,12 @@ title = "Muhammad Abdullah"
 
 [[organizations]]
     name = "Bates College"
-    role = "Student"
+    role = "Alumnus"
 
 +++ 
-Abdullah is working on the thermal asymptotic suction boundary layer problem.
+Abdullah completed his senior thesis on machine learning methods for finding exact coherent states in plane Couette flow. He also worked on the thermal asymptotic suction boundary layer problem.
+
+He is currently a PhD student in Prof. George Park's group at the University of Pennsylvania Mechanical Engineering and Applied Mechanics department.
 
 
 

@@ -1,7 +1,7 @@
 +++
 date = "2016-07-12T15:52:22+02:00"
 id = "jsoishi"
-interests = ["Fluid Dynamics", "Numerical Methods for PDEs", "Statistical Approaches to Turbulence", "High Performance Computing"]
+interests = ["Fluid Dynamics", "Sustainability", "Plasma Physics", "Numerical Methods for PDEs", "High Performance Computing"]
 name = "Jeffrey S. Oishi"
 portrait = "headshots/jeff_circle.jpg"
 short_bio = "Alleged grown-up."
@@ -32,10 +32,10 @@ sort_position=1
 
 [[organizations]]
     name = "Bates College"
-    role = "Assistant Professor"
+    role = "Associate Professor"
 
 +++ 
-Jeff grew up in Virginia, just outside Washington, D. C. 
+Jeff develops numerical algorithms and software to model partial differential equations (PDEs). He uses them to study complicated non-linear flows and turbulence in fluids and plasmas. This involves great students, a lot of coffee, a fair amount of supercomputer time, and a network of great friends and collaborators around the world to work with.
 
 ### Hobbies
 Loud music, synthesizers, bicycles, cats. 
