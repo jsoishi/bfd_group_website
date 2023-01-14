@@ -38,7 +38,7 @@ url_video = ""
 template = Template(temp_str)
 
 app = bt.BibApp()
-searchterms = ['author:Oishi,J','year:[2020 TO 2020]']
+searchterms = ['author:Oishi,J','year:[2021 TO 2022]']
 filterterms = []#['database:astronomy', 'database:physics']
 
 records = ads._run_ads_search(app,searchterms,filterterms,field_list='abstract,author,bibcode,doi,title,pub,pubdate')
@@ -56,5 +56,5 @@ for r in records['response']['docs']:
     filename = "{}.md".format(r['bibcode'])
     outfile = content_path/filename
     pub_date = re.sub('-00','-01',r['pubdate']) # replace weird zero in day field
-    date = "{:}T00:00:00+00:00".format(r['pubdate'])
+    date = "{:}T00:00:00+00:00".format(pub_date)
     outfile.write_text(template.render(title=title,journal=r['pub'],abstract=abstract,date=date,authors=r['author']))
