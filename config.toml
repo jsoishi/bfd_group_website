@@ -1,5 +1,5 @@
-enableGitInfo = true
-layoutdir = "themes/hugo-academic-group/layouts"
+#enableGitInfo = true
+#layoutdir = "themes/hugo-academic-group/layouts"
 publishdir = "public"
 static = "/static"
 builddrafts = false
@@ -30,10 +30,11 @@ tag = "tags"
   author = "Jeffrey S. Oishi"
   email = "joishi@bates.edu"
   address = "Carnegie Science Room 141, Bates College, Lewiston, ME 04240"
-
+  custom_css = ["biaslab.css"]  
   slogan = "Bates Fluid Dynamics Group"
   slogan_text = "Computing complicated fluid dynamics from turbulence to Stokes flow"
-
+  landing_heading = "Bates Fluid Dynamics Group"
+  landing_description = "We do fun things with math and computers"
   # Selected Publications section.
   [params.publications_selected]
     detailed_list = true
